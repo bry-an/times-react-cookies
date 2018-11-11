@@ -1,0 +1,47 @@
+#search-form {
+    margin-top: 10%;
+    color: #444;
+
+    #search-form-label {
+        display: block;
+    }
+
+    form {
+        input {
+        display: block;
+        width: 100%;
+        }
+        .row {
+            margin-bottom: 5px
+        }
+    }
+
+    .time-select {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        background-color: #eee;
+        p {
+            margin-bottom: 10px;
+        }
+        label {
+            text-align: left;
+        }
+    }
+
+    .dateInput {
+        display: inline;
+        width: 100%;
+    }
+
+    .submit {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .error {
+        color: red;
+    }
+
+}
